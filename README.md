@@ -297,8 +297,8 @@ Visual architecture diagrams in [`evidence/diagrams/`](evidence/diagrams/):
 For questions about this project or to discuss opportunities:
 
 **GitHub:** toyotaguy95  
-**LinkedIn:** [Your LinkedIn Profile]  
-**Email:** <YOUR_EMAIL>
+**LinkedIn:** www.linkedin.com/in/yipinvestmentsllc  
+**Email:** yipinvestmentsllc@gmail.com
 
 ---
 
