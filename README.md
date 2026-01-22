@@ -32,17 +32,17 @@ This project showcases a fully functional homelab that mirrors enterprise networ
 
 ### Network Topology
 
-![Physical Topology](evidence/diagrams/01-physical-topology.png)
+![Physical Topology](diagrams/01-physical-topology.png)
 
-![VLAN Logical Topology](evidence/diagrams/02-vlan-logical-topology.png)
+![VLAN Logical Topology](diagrams/02-vlan-logical-topology.png)
 
 ### Security Architecture
 
-![Security Architecture](evidence/diagrams/03-security-architecture.png)
+![Security Architecture](diagrams/03-security-architecture.png)
 
 ### Traffic Flow
 
-![Website Traffic Flow](evidence/diagrams/04-website-traffic-flow.png)
+![Website Traffic Flow](diagrams/04-website-traffic-flow.png)
 
 ---
 
