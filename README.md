@@ -1,8 +1,8 @@
 # Enterprise-Grade Homelab Infrastructure
 
-A production-ready homelab environment built on Raspberry Pi 5, demonstrating enterprise networking principles, security hardening, and comprehensive monitoring systems.
+A production-ready homelab environment built on Raspberry Pi 4b, demonstrating enterprise networking principles, security hardening, and comprehensive monitoring systems.
 
-🌐 **Live Demo:** [Portfolio Website](https://example.com) *(Replace with your actual site when sharing with employers)*
+🌐 **Live Demo:** https://www.trippylab.xyz
 
 ---
 
