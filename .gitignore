@@ -1,0 +1,15 @@
+# Sensitive Files
+**/id_rsa
+**/id_rsa.pub
+**/*.key
+**/*.pem
+**/.env
+**/secrets/
+**/*.log
+
+# Reference files
+sanitize.txt
+
+# System Files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,28 @@
+network:
+  version: 2
+  renderer: networkd
+
+  ethernets:
+    eth0:
+      dhcp4: true   # upstream home LAN (<IP_ADDR>) via VLAN 1 (untagged/native)
+
+  vlans:
+    eth0.10:
+      id: 10
+      link: eth0
+      addresses: [<IP_NETWORK>]
+
+    eth0.20:
+      id: 20
+      link: eth0
+      addresses: [<IP_NETWORK>]
+
+    eth0.30:
+      id: 30
+      link: eth0
+      addresses: [<IP_NETWORK>]
+
+    eth0.40:
+      id: 40
+      link: eth0
+      addresses: [<IP_NETWORK>]
