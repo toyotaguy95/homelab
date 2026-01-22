@@ -34,7 +34,7 @@ This project showcases a fully functional homelab that mirrors enterprise networ
 
 ![Physical Topology](diagrams/01-physical-topology.png)
 
-![VLAN Logical Topology](diagrams/02-vlan-logical-topology.png)
+![VLAN Logical Topology](diagrams/02-VLAN-logical-topology.png)
 
 ### Security Architecture
 
