@@ -1,8 +1,8 @@
 # Enterprise-Grade Homelab Infrastructure
 
-A production-ready homelab environment built on Raspberry Pi 5, demonstrating enterprise networking principles, security hardening, and comprehensive monitoring systems.
+A production-ready homelab environment built on Raspberry Pi 4b, demonstrating enterprise networking principles, security hardening, and comprehensive monitoring systems.
 
-🌐 **Live Demo:** [Portfolio Website](https://example.com) *(Replace with your actual site when sharing with employers)*
+🌐 **Live Demo:** https://www.trippylab.xyz
 
 ---
 
@@ -32,17 +32,17 @@ This project showcases a fully functional homelab that mirrors enterprise networ
 
 ### Network Topology
 
-![Physical Topology](evidence/diagrams/01-physical-topology.png)
+![Physical Topology](diagrams/01-physical-topology.png)
 
-![VLAN Logical Topology](evidence/diagrams/02-vlan-logical-topology.png)
+![VLAN Logical Topology](diagrams/02-VLAN-logical-topology.png)
 
 ### Security Architecture
 
-![Security Architecture](evidence/diagrams/03-security-architecture.png)
+![Security Architecture](diagrams/03-security-architecture.png)
 
 ### Traffic Flow
 
-![Website Traffic Flow](evidence/diagrams/04-website-traffic-flow.png)
+![Website Traffic Flow](diagrams/04-website-traffic-flow.png)
 
 ---
 
@@ -296,7 +296,7 @@ Visual architecture diagrams in [`evidence/diagrams/`](evidence/diagrams/):
 
 For questions about this project or to discuss opportunities:
 
-**GitHub:** github.com/toyotaguy95  
+**GitHub:** toyotaguy95  
 **LinkedIn:** www.linkedin.com/in/yipinvestmentsllc  
 **Email:** yipinvestmentsllc@gmail.com
 
