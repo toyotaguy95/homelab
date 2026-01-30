@@ -1895,3 +1895,74 @@ Disaster recovery validation (system can recover from reboot)
 
 Result: All services confirmed auto-starting on boot, firewall rules loading correctly, system production-ready for 24/7 operation
 
+---
+
+### Change 049 - Claude CLI Integration
+
+**Date:** 1/23/2026  
+**What:** Installed Claude CLI for AI-powered security analysis
+
+**Installation:**
+```bash
+curl -O https://claude.ai/download/cli/linux-arm64
+sudo install claude /usr/local/bin/
+claude auth
+```
+
+**Purpose:** AI consultation for security decisions and analysis
+
+**What I Learned:**
+- AI tool integration
+- Prompt engineering basics
+- Privacy vs capability tradeoffs
+
+**Skills Demonstrated:** AI integration, security-conscious tool adoption
+
+**Result:** Claude CLI operational for security consultation
+
+
+### Change 050 - Ollama Local AI Deployment
+
+**Date:** 1/24/2026  
+**What:** Deployed Ollama with qwen2.5:3b for private AI inference
+
+**Installation:**
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull qwen2.5:3b
+```
+
+**Model Selection:** qwen2.5:3b chosen for balance of size (2GB), performance (10-15 sec), and capability
+
+**System Impact:**
+- RAM: +2GB
+- No interference with other services
+
+**What I Learned:**
+- Local AI deployment on constrained hardware
+- Model selection based on capabilities
+- Performance vs privacy tradeoffs
+
+**Skills Demonstrated:** Local AI infrastructure, resource optimization, privacy-preserving architecture
+
+**Result:** Ollama operational for private analysis, completing hybrid AI strategy
+
+---
+
+### Change 051 - Physical Infrastructure Documentation
+
+**Date:** 1/30/2026  
+**What:** Update documents and photographed physical setup
+
+**Photos Added:**
+- Rack overview
+- Router Pi
+- Switch connections
+- Cable management
+
+**Purpose:** Professional documentation for portfolio
+
+**Skills Demonstrated:** Documentation practices, professional presentation
+
+**Result:** Complete visual documentation added to repository
+

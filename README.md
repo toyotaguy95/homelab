@@ -77,6 +77,10 @@ This project showcases a fully functional homelab that mirrors enterprise networ
 - **Applications:** Node.js (Express) with PM2 process management
 - **Containerization:** Docker for isolated service deployment
 
+### AI & Automation
+- **Claude CLI:** AI assistant for security analysis and consultation with sanitized data if I really want to ask AI a security question
+- **Ollama (qwen2.5:3b):** Local AI inference for private log analysis
+
 ---
 
 ## 🌐 Network Design
@@ -178,6 +182,63 @@ Public services isolated in Server VLAN (10.0.20.0/24):
 
 ---
 
+## 🤖 AI Integration
+
+### Claude CLI (January 2026)
+
+Integrated Anthropic's Claude CLI for AI-powered security consultation.
+
+**Purpose:**
+- Security pattern analysis with sanitized data
+- Threat assessment recommendations
+- Natural language log analysis
+
+**Installation:**
+```bash
+curl -O https://claude.ai/download/cli/linux-arm64
+sudo install claude /usr/local/bin/
+claude auth
+```
+
+**What I Learned:**
+- AI integration in security workflows
+- Prompt engineering for analysis
+- Balancing cloud AI with privacy
+
+---
+
+### Ollama Local AI (January 2026)
+
+Deployed Ollama with qwen2.5:3b for 100% private AI inference.
+
+**Purpose:**
+- Private log analysis (no external data)
+- Offline AI capability
+- Learning local AI deployment
+
+**Installation:**
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull qwen2.5:3b
+```
+
+**Performance:**
+- Response time: 10-15 seconds
+- RAM usage: ~2GB
+- Runs alongside other services
+
+**Hybrid Strategy:**
+- **Ollama:** Sensitive data (100% private)
+- **Claude CLI:** Complex reasoning (faster)
+
+---
+
+## 📸 Physical Setup
+
+All photos and videos of physical set up will be in the evidence folder
+
+---
+
 ## 🏆 Key Achievements
 
 ### Network Engineering
@@ -219,7 +280,7 @@ Public services isolated in Server VLAN (10.0.20.0/24):
 ## 📚 Documentation
 
 ### Complete Build Log
-See [BuildLog.md](BuildLog.md) for detailed change history with 48 documented changes including:
+See [BuildLog.md](BuildLog.md) for detailed change history with documented changes including:
 - Configuration decisions and rationale
 - Troubleshooting steps for issues encountered
 - Testing and validation procedures

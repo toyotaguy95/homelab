@@ -13,3 +13,9 @@ sanitize.txt
 # System Files
 .DS_Store
 Thumbs.db
+
+# Videos (too large for GitHub)
+evidence/videos/
+*.MOV
+*.mp4
+*.avi
